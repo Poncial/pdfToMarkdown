@@ -1,0 +1,4 @@
+pymupdf>=1.26
+# Versions >= 1.28 de pymupdf4llm dépendent de onnxruntime (indisponible sur Python 3.15).
+# La 2.0 est un paquet vide : ne pas l'utiliser.
+pymupdf4llm==0.3.4
